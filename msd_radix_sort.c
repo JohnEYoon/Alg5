@@ -9,6 +9,27 @@
 #include <time.h>
 #define CLOCKS_PER_MSEC CLOCKS_PER_SEC*1000
 
+void msd_radix_sort(int*arr){
+	int aux[sizeof(arr)/sizeof(int)];
+	sort(arr, aux, 0, length, s)
+	
+	
+}
+
+
+void sort(int *arr, int*aux int low, int hi, int length){
+	int i, r;
+	if(low>=high)
+		return;
+	int count[11];//10+2
+	for(i=low;i<=hi;i++)
+		count[arr[i]+2]++;
+	for(r=0;i<10;r++)
+		count[r+1]+=count[r];
+	for(i=low;i<=hi;i++)
+		aux[count[a]]
+}
+
 int main (int argc, char* argv[]) {
 	if(argc!=3){
 		puts("command line input error");
